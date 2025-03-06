@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Styling for Portfolio Header */
+.box {
+    color: blue;
+    text-align: center;
+    font-size: 28px;
+}
+.box1 {
+    color: blue;
+    
+    font-size: 28px;
+}
+
+    /* Center the image */
+    .profile-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    /* Make the image circular */
+    .profile-img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        transition: filter 0.3s ease-in-out;
+    }
+
+    /* Blur effect on focus */
+    .profile-img:hover,
+    .profile-img:focus {
+        filter: blur(5px);
+    }
+
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 10px rgba(0, 0, 255, 0.3);
+    transition: 0.3s ease-in-out;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+td {
+    background-color: #f1f1f1;
+}
+
+/* Hover Effects */
+table:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 255, 0.5);
+}
+
+th:hover {
+    background-color: #ff5733;
+    transition: 0.3s;
+}
+
+td:hover {
+    background-color: #f0e68c;
+    transition: 0.3s;
+}
+
+/* Contact Form */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: auto;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Social Media Links */
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #007bff;
+}
+
+a img {
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+}
+
+a:hover {
+    color: #ff5733;
+}
